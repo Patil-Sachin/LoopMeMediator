@@ -10,7 +10,7 @@ LICENSE
 }
 s.homepage     = "https://www.google.co.in/"
 s.author       = "Team"
-s.platform     = :ios, "11.2"
+s.platform     = :ios, "8.0"
 s.source       = {:git => 'https://bitbucket.org/vdopia/sdkdistribution.git',:tag => '3.1.2'}
 s.ios.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreBluetooth', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreTelephony', 'EventKit', 'EventKitUI', 'Foundation', 'iAd', 'MapKit', 'MediaPlayer', 'MediaToolbox', 'MobileCoreServices', 'QuartzCore', 'SafariServices', 'Security', 'Social', 'SystemConfiguration', 'UIKit', 'WebKit'
 s.vendored_libraries = "libLoopMeMediator.a"
